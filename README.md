@@ -36,7 +36,7 @@ Detalhamento dos valores a serem cobrados de acordo com a permanência:
 2. Importar o projeto estacionamento no Eclipse ou Spring Tool Suite como um Maven Project.
 3. Executar o maven build do projeto pai com base no pom.xml principal com os comandos mvn clean install para buildar os módulos dependentes na hierarquia do projeto.
 4. Ir ao projeto estacionamento-controller e executar a classe EstacionamentoApplication como JavaApplication onde serão criadas 20 vagas para teste das funcionalidades junto com as APIs desenvolvidas.
-4.1 As APIs desenvolvidas no back-end estão disponveis na url http://localhost:8080/swagger-ui.html.
+5. As APIs desenvolvidas no back-end estão disponveis na url http://localhost:8080/swagger-ui.html.
 
 ### Instruções para execução do projeto Angular
 1. Após o build do projeto pai (estacionamento), abrir a aplicação estacionamento-view localizada no diretório front-end do projeto estacionamento, utilizando ferramentas como VSCode, Atom, etc.
