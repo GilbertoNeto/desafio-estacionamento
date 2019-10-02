@@ -34,9 +34,10 @@ Detalhamento dos valores a serem cobrados de acordo com a permanência:
 ### Instruções para execução do projeto Java
 1. Criar um schema MySQL local com o nome estacionamento_conpay e senha+password = root 
 2. Importar o projeto estacionamento no Eclipse ou Spring Tool Suite como um Maven Project.
-3. Executar o maven build do projeto pai com base no pom.xml principal com os comandos mvn clean install para buildar os módulos dependentes na hierarquia do projeto.
-4. Ir ao projeto estacionamento-controller e executar a classe EstacionamentoApplication como JavaApplication onde serão criadas 20 vagas para teste das funcionalidades junto com as APIs desenvolvidas.
-5. As APIs desenvolvidas no back-end ficam disponveis na url http://localhost:8080/swagger-ui.html após o projeto ser executado.
+3. Executar o comando Maven Update nos projetos que possuem pom.xml
+4. Executar o maven build do projeto pai com base no pom.xml principal com os comandos mvn clean install para buildar os módulos dependentes na hierarquia do projeto.
+5. Ir ao projeto estacionamento-controller e executar a classe EstacionamentoApplication como JavaApplication onde serão criadas 20 vagas para teste das funcionalidades junto com as APIs desenvolvidas.
+6. As APIs desenvolvidas no back-end ficam disponveis na url http://localhost:8080/swagger-ui.html após o projeto ser executado.
 
 ### Instruções para execução do projeto Angular
 1. Após o build do projeto pai (estacionamento), abrir a aplicação estacionamento-view localizada no diretório front-end do projeto estacionamento, utilizando ferramentas como VSCode, Atom, etc.
